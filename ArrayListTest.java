@@ -9,8 +9,8 @@ import java.util.ArrayList;
 
 public class ArrayListTest {
 
-public static printList( ArrayList a ) {  
-  System.out.println( "The lilst size is now: " + a.size(); + "elements long." );
+public static void printList( ArrayList a ) {  
+  System.out.println( "The lilst size is now: " + a.size() + "elements long." );
   for ( int i=0; i<a.size(); i++ ) {
     System.out.print( a.get(i) + ", " );
    }
