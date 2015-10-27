@@ -19,7 +19,7 @@ public static void printList( ArrayList a ) {
   
   public static void main( String[] args ) 
   
-    ArrayList<integer> list = new ArrayList<Integer>();
+    ArrayList<Integer> list = new ArrayList<Integer>();
     
     list.add( 3 );
     list.add( 6 );
